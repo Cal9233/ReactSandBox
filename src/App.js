@@ -1,7 +1,9 @@
+import UseRefExample3 from "./components/UseRefExample3";
+
 function App() {
   return (
     <div className="container mt-5">
-      <h1>Hello</h1>
+      <UseRefExample3 />
     </div>
   );
 }
