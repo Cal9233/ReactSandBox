@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useRef, useMemo} from 'react'
 
 //UseMemo is meant to improve performance, no need to use if it's not that
+//UseMemo returns a Memoized value
 const UseMemoExample = () => {
   const [number, setNumber] = useState(1);
   const [inc, setInc] = useState(0);
